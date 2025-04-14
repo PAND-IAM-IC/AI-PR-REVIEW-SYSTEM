@@ -45,16 +45,20 @@ Our model is:
 
 ## 🧠 Tech Stack
 
-| Layer | Tools Used |
-|------|------------|
-| Model | HuggingFace Transformers `T5ForConditionalGeneration` |
-| Tokenization | `T5Tokenizer` |
-| Dataset | Custom PyTorch `PRDataset` class |
-| Framework | PyTorch, Hugging Face Trainer |
-| Training Setup | Fine-tuned on labeled PR comments |
-| Logging | Trainer's built-in logging |
-| Deployment | To be pushed to GitHub |
-| Optional Inference | Script-based input/output with CSV support |
+| Category | Tools Used |
+|----------|------------|
+| Model | `T5ForConditionalGeneration` (Hugging Face Transformers) |
+| Tokenizer | `T5Tokenizer` |
+| Dataset Handling | Custom `PRDataset` class using PyTorch |
+| Training | Hugging Face `Trainer` API, PyTorch |
+| Evaluation | Accuracy metrics, ground-truth vs predicted comparison |
+| Data Format | CSV ➝ `.pt` tensors for train/val/test |
+| Preprocessing | `pandas`, `numpy`, string formatting utilities |
+| File I/O | `os`, `csv`, `torch.save`, `torch.load` |
+| Environment | Python 3.10+, Jupyter / CLI |
+| Version Control | Git, GitHub |
+| Deployment Ready | Inference scripts for GitHub integration |
+| Future Ready | Fully customizable for company PR data fine-tuning |
 
 ---
 
