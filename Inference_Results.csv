@@ -1,0 +1,26 @@
+Ground_Label,Predicted_Labels
+Ensure cleanup of event listeners to avoid memory leaks,Ensure cleanup of event listeners to avoid memory leaks
+Use const instead of let for variables that are not reassigned,Use const instead of let for variables that are not reassigned
+Use const instead of let for variables that are not reassigned,Use const instead of let for variables that are not reassigned
+Use const instead of let for variables that are not reassigned,Use const instead of let for variables that are not reassigned
+Missing dependency array may cause stale closures in hooks,UseEffect(() =>  fetchUserData();
+Consider null/undefined checks using optional chaining for safer access,Missing dependency array may cause stale closures in hooks
+Consider null/undefined checks using optional chaining for safer access,Missing dependency array may cause stale closures in hooks
+Missing semicolon at the end of the return statement,Missing semicolon at the end of the return statement
+Missing semicolon at the end of the return statement,Missing semicolon at the end of the return statement
+React render method should return only a single root element,React render method should return only a single root element
+Use const instead of let for variables that are not reassigned,Use const instead of let for variables that are not reassigned
+Missing semicolon at the end of the return statement,Missing semicolon at the end of the return statement
+Ensure cleanup of event listeners to avoid memory leaks,Ensure cleanup of event listeners to avoid memory leaks
+"Array index out of bounds, use i  x.length in the loop","Array index out of bounds, use i  x.length in the loop"
+React render method should return only a single root element,React render method should return only a single root element
+React render method should return only a single root element,Missing semicolon at the end of the return statement
+Missing semicolon at the end of the return statement,Missing semicolon at the end of the return statement
+Missing dependency array may cause stale closures in hooks,Missing dependency array may cause stale closures in hooks
+Avoid using setTimeout for asynchronous logic; consider Promises or async/await,Avoid using setTimeout for asynchronous logic; consider Promises or async/await
+Ensure cleanup of event listeners to avoid memory leaks,Ensure cleanup of event listeners to avoid memory leaks
+Ensure cleanup of event listeners to avoid memory leaks,Ensure cleanup of event listeners to avoid memory leaks
+"Array index out of bounds, use i  x.length in the loop","Array index out of bounds, use i  x.length in the loop"
+Missing dependency array may cause stale closures in hooks,UseEffect(() =>  fetchUserData();
+Avoid logging sensitive information like passwords,Avoid logging sensitive information like passwords
+"Array index out of bounds, use i  x.length in the loop","Array index out of bounds, use i  x.length in the loop"
