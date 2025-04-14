@@ -43,19 +43,19 @@ Our model is:
 
 ---
 
-Category	Tools
-Model	T5ForConditionalGeneration (Hugging Face Transformers)
-Tokenizer	T5Tokenizer
-Dataset Handling	Custom PRDataset class using PyTorch
-Training	Trainer API from Hugging Face, PyTorch backend
-Evaluation	Accuracy scores, confusion patterns, qualitative output comparison
-Data Format	CSV ➝ Tokenized Tensors (.pt) for train/val/test
-Preprocessing	pandas, numpy, string cleaning and formatting logic
-File I/O	os, csv, torch.save / torch.load
-Environment	Python 3.10+, Jupyter Notebooks / CLI scripts
-Version Control & Collaboration	GitHub
-Deploy-Ready	Model + inference script ready for integration
-Future Ready	Fine-tuning support using real PR data from version control systems (e.g. GitHub, GitLab)
+## 🧠 Tech Stack
+
+| Layer | Tools Used |
+|------|------------|
+| Model | HuggingFace Transformers `T5ForConditionalGeneration` |
+| Tokenization | `T5Tokenizer` |
+| Dataset | Custom PyTorch `PRDataset` class |
+| Framework | PyTorch, Hugging Face Trainer |
+| Training Setup | Fine-tuned on labeled PR comments |
+| Logging | Trainer's built-in logging |
+| Deployment | To be pushed to GitHub |
+| Optional Inference | Script-based input/output with CSV support |
+
 ---
 
 ## 🧪 How It Works
