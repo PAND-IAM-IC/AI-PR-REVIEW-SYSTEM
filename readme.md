@@ -79,9 +79,8 @@ Our model is:
 
 ## 🔗 Links
 
-- [GitHub Repository](#) ← add link here
-- [Sample Inference CSV](#) ← optional
-- [Hackathon Submission Form Response](#) ← link if you share a doc
+- [GitHub Repository] ← (https://github.com/PAND-IAM-IC/AI-PR-REVIEW-SYSTEM)
+- [Sample Inference CSV] ← (https://github.com/PAND-IAM-IC/AI-PR-REVIEW-SYSTEM/blob/main/Inference_Results.csv)
 
 ---
 
