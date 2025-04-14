@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore model files
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+Trained_t5_MODEL/
+
+# Ignore data and large files
+*.npy
+*.npz
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode & macOS system files
+.vscode/
+.DS_Store
